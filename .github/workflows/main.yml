@@ -1,0 +1,12 @@
+name: DexEyes Bot
+
+on:
+  workflow_dispatch:
+
+jobs:
+  bot:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Test Telegram connection
+        run: |
+          echo "DexEyes bot workflow is ready"
